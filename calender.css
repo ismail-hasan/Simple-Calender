@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.calender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 30px repeat(5, 72px);
+padding: 20px;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.date,
+.day {
+  background-color: lightblue;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.other-class {
+  background-color: lightgray;
+}
+.day {
+  font-size: 1.5em;
+  background-color: lightgreen;
+}
